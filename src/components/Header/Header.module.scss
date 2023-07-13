@@ -1,0 +1,24 @@
+.root {
+    height: 100px;
+    width: 100%;
+    padding: 0 260px;
+    background: linear-gradient(360deg, #464341 0%, #010101 100%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+
+    .tel {
+        text-decoration: none;
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    @media (max-width: 1024px) {
+        padding: 20px;
+        font-size: 20px;
+    }
+}
